@@ -124,9 +124,16 @@ We thank the authors for releasing their code.
 
 ## License
 
-This repository is released under the MIT License (see [LICENSE](LICENSE)).
-`rescode/models/mixtral/modeling_mixtral.py` is derived from HuggingFace
-Transformers and retains its original Apache-2.0 license header.
+This code is released under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/).
+
+- ✅ Free for academic research, education, and personal use
+- ✅ Modifications and derivative works allowed for noncommercial purposes
+- ❌ Commercial use is prohibited
+
+For commercial licensing, contact: **jg020247@snu.ac.kr**
+
+Files adapted from HC-SMoE keep its MIT License, and files derived from HuggingFace Transformers keep
+their Apache-2.0 license headers (see [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES)).
 
 ## Reference
 
