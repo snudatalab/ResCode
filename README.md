@@ -112,7 +112,7 @@ re-fitting, reuse its saved residual state:
 LOAD=auto bash scripts/RESCODE/run_mixtral_4x.sh
 ```
 
-## Reference
+## Acknowledgments
 
 Parts of this code are adapted from the following repositories:
 
@@ -127,3 +127,15 @@ We thank the authors for releasing their code.
 This repository is released under the MIT License (see [LICENSE](LICENSE)).
 `rescode/models/mixtral/modeling_mixtral.py` is derived from HuggingFace
 Transformers and retains its original Apache-2.0 license header.
+
+## Reference
+
+If you use this code, please cite the following paper.
+```bibtex
+@misc{rescode,
+  title={ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration},
+  author={Yang, Hyunwoo and Kim, Minjun and Kang, U},
+  year={2026},
+  booktitle={The 2026 Conference on Empirical Methods in Natural Language Processing}
+}
+```
