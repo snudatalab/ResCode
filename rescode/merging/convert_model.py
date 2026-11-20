@@ -1,4 +1,23 @@
-"""Convert an RESCODE merged model into a RESCODE model.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/convert_model.py
+    - codes for converting a merged model into a RESCODE model
 
 The conversion is purely a forward-pass rewrite: the original router is kept,
 non-singleton clusters are replaced with a single `RescodeMetaExpert`, and

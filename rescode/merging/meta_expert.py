@@ -1,5 +1,23 @@
-"""RescodeMetaExpert: a single physical SwiGLU MLP shared by a cluster of
-original logical experts, conditioned by per-member code vectors.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/meta_expert.py
+    - codes for the RESCODE meta expert, a SwiGLU MLP shared by the experts of a cluster and conditioned by per-member code vectors
 
 Three output equations are supported, selected by `preact` presence and
 `PreActStarConfig.paper_postact_aggregation`:

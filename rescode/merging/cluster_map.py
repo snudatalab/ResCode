@@ -1,3 +1,24 @@
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/cluster_map.py
+    - codes for mapping original experts to clusters in each MoE layer
+"""
 from dataclasses import dataclass, field
 from typing import Dict, List
 

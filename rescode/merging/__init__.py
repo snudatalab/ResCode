@@ -1,4 +1,23 @@
-"""ResCODE merging package: RESCODE clustering + ResCODE residual-code restoration.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/__init__.py
+    - codes for exporting the RESCODE merging API
 
 Re-exports the public API of the residual-code coalescing modules so they
 can be imported as `from rescode.merging import ...`.

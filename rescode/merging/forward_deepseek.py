@@ -1,4 +1,23 @@
-"""RESCODE forward for DeepSeek-V1/V2 MoE sparse blocks.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/forward_deepseek.py
+    - codes for the RESCODE forward of DeepSeek-V1/V2 MoE sparse blocks
 
 The function `rescode_deepseek_moe_forward` is monkey-patched onto a
 `DeepseekMoE` / `DeepseekV2MoE` (via `MethodType`) after RESCODE conversion.

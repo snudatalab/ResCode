@@ -1,4 +1,23 @@
-"""Summarise lm-eval results across the 8 zero-shot tasks.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/eval_summary.py
+    - codes for summarizing lm-eval results across the eight zero-shot tasks
 
 Computes two aggregate numbers and prints them at the end of both stdout
 (captured by `tee` into the log) and the result-text file:

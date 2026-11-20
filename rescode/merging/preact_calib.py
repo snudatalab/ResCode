@@ -1,4 +1,23 @@
-"""Calibration pass for preact std normalization.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/preact_calib.py
+    - codes for the calibration pass of preactivation std normalization
 
 Computes per-channel std of the merged gate/up preactivations on the merged
 model, and writes them into each `PreActModule.gate_preact_std` /

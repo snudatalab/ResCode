@@ -1,8 +1,24 @@
 #!/usr/bin/env python
 """
-Download calibration datasets for the RESCODE calibration ablation
-(Wikipedia / SlimPajama / DCLM / Code), normalised to the same JSONL format
-as the existing C4 shard at rescode/data/c4-train.00000-of-01024.json.
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+scripts/RESCODE/prepare_calib_datasets.py
+    - codes for downloading calibration datasets (Wikipedia / SlimPajama / DCLM / Code) in the JSONL format of the C4 shard
 
 Output rows: {"text": "..."} per line (other fields are dropped so the
 get_calib_dataloder text-column auto-pick is unambiguous).

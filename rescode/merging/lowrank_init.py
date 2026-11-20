@@ -1,4 +1,23 @@
-"""Spectral / SVD-aligned initialization for `lowrank_preact`.
+"""
+ResCode: Accurate Expert Compression of Sparse MoE Models via Residual-code Restoration (EMNLP 2026)
+
+Authors:
+- Hyunwoo Yang (jg020247@snu.ac.kr), Seoul National University
+- Minjun Kim (minjun.kim@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+Version : 1.0
+
+Date : Nov. 20th, 2026
+
+Main Contact: Hyunwoo Yang
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+rescode/merging/lowrank_init.py
+    - codes for spectral / SVD-aligned initialization of the low-rank residuals
 
 Two new init methods are provided in addition to the existing LoRA-style
 zero-B init:
